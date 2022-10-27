@@ -1,5 +1,6 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 /* Header section */
@@ -48,7 +49,7 @@ a {
 }
 
 .hero-pic {
-    width: 600px;
+    height: 300px;
 }
 
 .hero-content {
@@ -106,6 +107,7 @@ a {
     font-weight: 300;
     color: #1F2937;
     gap: 40px;
+    margin-bottom: 100px;
 }
 
 .card {
@@ -122,6 +124,32 @@ a {
 }
 
 .card p {
-    margin: 0 0 100px;
+    margin: 0 0;
     color: #1F2937;
+}
+
+/* Citation section */
+
+.citation {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    padding: 80px 360px;
+    color: #1F2937;
+}
+
+.citation p {
+    text-align: start;
+    margin-bottom: 0px;
+}
+
+#author {
+    font-weight: 700;
+    margin-top: 0px;
+    text-align: end;
+    font-size: 24px;
+    padding-right: 80px;
 }
