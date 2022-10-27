@@ -90,3 +90,38 @@ a {
 }
 
 /* Content section */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    font-size: 18px;
+    font-weight: 300;
+    color: #1F2937;
+    gap: 40px;
+}
+
+.card {
+    width: 200px;
+    padding: 0px;
+    margin: 20px;
+    text-align: center;
+}
+
+.palms {
+    height: 200px;
+    border-radius: 8px;
+    border: 5px solid #3882f6;
+}
+
+.card p {
+    margin: 0 0 100px;
+    color: #1F2937;
+}
