@@ -176,6 +176,7 @@ a {
 }
 .action-text p {
     margin: 0;
+    color: #e5e7eb;
 }
 
 .signup-action {
@@ -186,4 +187,14 @@ a {
     font-weight: bold;
     padding: 0 30px;
     border-style: 2px solid white;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
 }
